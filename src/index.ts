@@ -59,7 +59,7 @@ export interface AptosWalletAdapterConfig {
   timeout?: number;
 }
 
-export class AptosWalletAdapter extends BaseWalletAdapter {
+export class PetraWalletAdapter extends BaseWalletAdapter {
   name = AptosWalletName;
 
   url =
